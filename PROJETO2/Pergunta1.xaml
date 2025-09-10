@@ -1,0 +1,48 @@
+﻿<Window x:Class="PROJETO2.Pergunta1"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+        xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+        xmlns:local="clr-namespace:PROJETO2"
+        mc:Ignorable="d"
+        Title="Pergunta1" Height="450" Width="800">
+    <Grid>
+        <Image x:Name="img_Perg" HorizontalAlignment="Left" Height="450" VerticalAlignment="Top" Width="825" Source="/Bem-vindo (3).png"/>
+        <ComboBox x:Name="Select_clima" HorizontalAlignment="Left" Margin="153,101,0,0" VerticalAlignment="Top" Width="120" SelectedIndex="0" SelectionChanged="Select_clima_SelectionChanged">
+            <ComboBoxItem Content="Quente"/>
+            <ComboBoxItem Content="Frio"/>
+        </ComboBox>
+        <ComboBox x:Name="Select_horar" HorizontalAlignment="Left" Margin="162,159,0,0" VerticalAlignment="Top" Width="120" SelectedIndex="0">
+            <ComboBoxItem Content="Dia"/>
+            <ComboBoxItem Content="Noite"/>
+        </ComboBox>
+        <ComboBox HorizontalAlignment="Left" Margin="173,217,0,0" VerticalAlignment="Top" Width="120" SelectedIndex="0">
+            <ComboBoxItem Content="Sozinho"/>
+            <ComboBoxItem Content="Encontro Romântico"/>
+            <ComboBoxItem Content="Festa com Amigos"/>
+            <ComboBoxItem Content="Jantar Formal"/>
+        </ComboBox>
+        <ComboBox HorizontalAlignment="Left" Margin="267,274,0,0" VerticalAlignment="Top" Width="133" SelectedIndex="0">
+            <ComboBoxItem Content="Carnes Vermelhas"/>
+            <ComboBoxItem Content="Frutos do Mar"/>
+            <ComboBoxItem Content="Massas/Pizzas"/>
+            <ComboBoxItem Content="Sobremesas"/>
+            <ComboBoxItem Content="Apenas para Relaxar"/>
+        </ComboBox>
+        <ComboBox HorizontalAlignment="Left" Margin="233,332,0,0" VerticalAlignment="Top" Width="120" SelectedIndex="0">
+            <ComboBoxItem Content="$50"/>
+            <ComboBoxItem Content="$100"/>
+            <ComboBoxItem Content="$150"/>
+        </ComboBox>
+        <Button x:Name="bnt_result" HorizontalAlignment="Left" Margin="458,44,0,0" VerticalAlignment="Top" Height="364" Width="298" Opacity="0.7" BorderBrush="White" Click="bnt_result_Click">
+            <Button.Background>
+                <LinearGradientBrush EndPoint="0.5,1" StartPoint="0.5,0">
+                    <GradientStop Color="Black"/>
+                    <GradientStop Color="White" Offset="1"/>
+                </LinearGradientBrush>
+            </Button.Background>
+        </Button>
+        <Label x:Name="text" Content="Descubra o seu vinho!     " HorizontalAlignment="Left" Margin="478,186,0,0" VerticalAlignment="Top" FontSize="24" FontWeight="Bold"/>
+        <Label x:Name="text_Copiar" Content="CLIQUE AQUI&#xD;&#xA;" HorizontalAlignment="Left" Margin="546,217,0,0" VerticalAlignment="Top" FontSize="18" FontWeight="Bold"/>
+    </Grid>
+</Window>

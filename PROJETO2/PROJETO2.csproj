@@ -1,0 +1,33 @@
+﻿<Project Sdk="Microsoft.NET.Sdk">
+
+  <PropertyGroup>
+    <OutputType>WinExe</OutputType>
+    <TargetFramework>net8.0-windows</TargetFramework>
+    <Nullable>enable</Nullable>
+    <ImplicitUsings>enable</ImplicitUsings>
+    <UseWPF>true</UseWPF>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <None Remove="Bem-vindo %281%29.png" />
+    <None Remove="Bem-vindo %283%29.png" />
+    <None Remove="Bem-vindo %284%29.png" />
+    <None Remove="download %281%29.jpg" />
+    <None Remove="download %282%29.jpg" />
+    <None Remove="wine-pictures-tb17n96c91147tq9.jpg" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <PackageReference Include="MySql.Data" Version="9.4.0" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <Resource Include="Bem-vindo (1).png" />
+    <Resource Include="Bem-vindo (3).png" />
+    <Resource Include="Bem-vindo (4).png" />
+    <Resource Include="download (1).jpg" />
+    <Resource Include="download (2).jpg" />
+    <Resource Include="wine-pictures-tb17n96c91147tq9.jpg" />
+  </ItemGroup>
+
+</Project>
