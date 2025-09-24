@@ -8,6 +8,7 @@ using System.Windows.Media;
 using System.Windows.Media.Imaging;
 using System.Windows.Navigation;
 using System.Windows.Shapes;
+using MySql.Data.MySqlClient;
 
 namespace PROJETO2
 {
@@ -19,13 +20,17 @@ namespace PROJETO2
         public MainWindow()
         {
             InitializeComponent();
+            ConexaoDB.AbrirConexao("server=localhost;user=root;password=root;database=vinhos");
         }
 
         private void btn_prPergut_Click(object sender, RoutedEventArgs e)
         {
+
+            
+
             Pergunta1 janela = new Pergunta1();
             janela.Show();
-             this.Close();
+            this.Close();
         }
     }
 }

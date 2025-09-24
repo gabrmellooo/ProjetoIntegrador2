@@ -8,28 +8,28 @@
         Title="Pergunta1" Height="450" Width="800">
     <Grid>
         <Image x:Name="img_Perg" HorizontalAlignment="Left" Height="450" VerticalAlignment="Top" Width="825" Source="/Bem-vindo (3).png"/>
-        <ComboBox x:Name="Select_clima" HorizontalAlignment="Left" Margin="153,101,0,0" VerticalAlignment="Top" Width="120" SelectedIndex="0" SelectionChanged="Select_clima_SelectionChanged">
-            <ComboBoxItem Content="Quente"/>
+        <ComboBox x:Name="Select_clima" HorizontalAlignment="Left" Margin="153,101,0,0" VerticalAlignment="Top" Width="120" SelectedIndex="0" >
+            <ComboBoxItem Content="Calor"/>
             <ComboBoxItem Content="Frio"/>
         </ComboBox>
         <ComboBox x:Name="Select_horar" HorizontalAlignment="Left" Margin="162,159,0,0" VerticalAlignment="Top" Width="120" SelectedIndex="0">
             <ComboBoxItem Content="Dia"/>
             <ComboBoxItem Content="Noite"/>
         </ComboBox>
-        <ComboBox HorizontalAlignment="Left" Margin="173,217,0,0" VerticalAlignment="Top" Width="120" SelectedIndex="0">
+        <ComboBox x:Name="Select_oca" HorizontalAlignment="Left" Margin="173,217,0,0" VerticalAlignment="Top" Width="120" SelectedIndex="0">
             <ComboBoxItem Content="Sozinho"/>
             <ComboBoxItem Content="Encontro Romântico"/>
             <ComboBoxItem Content="Festa com Amigos"/>
             <ComboBoxItem Content="Jantar Formal"/>
         </ComboBox>
-        <ComboBox HorizontalAlignment="Left" Margin="267,274,0,0" VerticalAlignment="Top" Width="133" SelectedIndex="0">
+        <ComboBox x:Name="Select_acom" HorizontalAlignment="Left" Margin="267,274,0,0" VerticalAlignment="Top" Width="133" SelectedIndex="0" SelectionChanged="Select_acom_SelectionChanged">
             <ComboBoxItem Content="Carnes Vermelhas"/>
             <ComboBoxItem Content="Frutos do Mar"/>
             <ComboBoxItem Content="Massas/Pizzas"/>
             <ComboBoxItem Content="Sobremesas"/>
             <ComboBoxItem Content="Apenas para Relaxar"/>
         </ComboBox>
-        <ComboBox HorizontalAlignment="Left" Margin="233,332,0,0" VerticalAlignment="Top" Width="120" SelectedIndex="0">
+        <ComboBox x:Name="Select_preco" HorizontalAlignment="Left" Margin="233,332,0,0" VerticalAlignment="Top" Width="120" SelectedIndex="0">
             <ComboBoxItem Content="$50"/>
             <ComboBoxItem Content="$100"/>
             <ComboBoxItem Content="$150"/>

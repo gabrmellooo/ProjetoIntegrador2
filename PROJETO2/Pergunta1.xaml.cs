@@ -30,5 +30,7 @@ namespace PROJETO2
             resultado.Show();
             this.Close();
         }
+
+      
     }
 }
