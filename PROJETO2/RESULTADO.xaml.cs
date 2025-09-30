@@ -33,13 +33,21 @@ namespace PROJETO2
             var preco = frmPerguntas.Select_preco.SelectionBoxItem;
 
 
-            string sql = $"SELECT * FROM vinicula where Clima = calor && Horario = noite && Ocasiao = formal && Acompanhamento = frutosmar &&  Faixapreco = 150";
+            string sql = "SELECT * FROM vinicula WHERE Clima = @clima AND Horario = @horario AND Ocasiao = @ocasiao AND Acompanhamento = @acompanhamento AND Faixapreco = @preco";
+
             MySqlCommand comando = new MySqlCommand(sql, ConexaoDB.Conexao);
+            comando.Parameters.AddWithValue("@clima", "calor");
+            comando.Parameters.AddWithValue("@horario", "noite");
+            comando.Parameters.AddWithValue("@ocasiao", "formal");
+            comando.Parameters.AddWithValue("@acompanhamento", "frutosmar");
+            comando.Parameters.AddWithValue("@preco", 150);
+
             MySqlDataReader leitor = comando.ExecuteReader();
             while (leitor.Read())
             {
                 txtVinho.Text = leitor["nome"].ToString();
             }
+
         }
 
         private void Button_Click(object sender, RoutedEventArgs e)

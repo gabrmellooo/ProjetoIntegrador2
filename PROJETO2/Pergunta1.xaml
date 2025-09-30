@@ -22,7 +22,7 @@
             <ComboBoxItem Content="Festa com Amigos"/>
             <ComboBoxItem Content="Jantar Formal"/>
         </ComboBox>
-        <ComboBox x:Name="Select_acom" HorizontalAlignment="Left" Margin="267,274,0,0" VerticalAlignment="Top" Width="133" SelectedIndex="0" SelectionChanged="Select_acom_SelectionChanged">
+        <ComboBox x:Name="Select_acom" HorizontalAlignment="Left" Margin="267,274,0,0" VerticalAlignment="Top" Width="133" SelectedIndex="0">
             <ComboBoxItem Content="Carnes Vermelhas"/>
             <ComboBoxItem Content="Frutos do Mar"/>
             <ComboBoxItem Content="Massas/Pizzas"/>
