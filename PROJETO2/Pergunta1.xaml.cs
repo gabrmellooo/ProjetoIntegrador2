@@ -31,6 +31,9 @@ namespace PROJETO2
             this.Close();
         }
 
-       
+        private void Select_clima_SelectionChanged(object sender, SelectionChangedEventArgs e)
+        {
+
+        }
     }
 }
