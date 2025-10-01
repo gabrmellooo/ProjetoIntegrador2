@@ -7,32 +7,34 @@
         mc:Ignorable="d"
         Title="Pergunta1" Height="450" Width="800">
     <Grid>
-        <Image x:Name="img_Perg" HorizontalAlignment="Left" Height="450" VerticalAlignment="Top" Width="825" Source="/Bem-vindo (3).png"/>
         <ComboBox x:Name="Select_clima" HorizontalAlignment="Left" Margin="153,101,0,0" VerticalAlignment="Top" Width="120" SelectedIndex="0" >
-            <ComboBoxItem Content="Calor"/>
-            <ComboBoxItem Content="Frio"/>
+            <ComboBoxItem Content="Calor" FontFamily="Sans Serif Collection" FontWeight="Bold"/>
+            <ComboBoxItem Content="Frio" FontFamily="Sans Serif Collection" FontWeight="Bold"/>
         </ComboBox>
-        <ComboBox x:Name="Select_horar" HorizontalAlignment="Left" Margin="162,159,0,0" VerticalAlignment="Top" Width="120" SelectedIndex="0">
-            <ComboBoxItem Content="Dia"/>
-            <ComboBoxItem Content="Noite"/>
+        <ComboBox x:Name="Select_horar" HorizontalAlignment="Left" Margin="162,159,0,0" VerticalAlignment="Top" Width="120" SelectedIndex="0" FontWeight="Bold">
+            <ComboBoxItem Content="Dia" FontFamily="Sans Serif Collection" FontWeight="Bold"/>
+            <ComboBoxItem Content="Noite" FontFamily="Sans Serif Collection" FontWeight="Bold"/>
         </ComboBox>
         <ComboBox x:Name="Select_oca" HorizontalAlignment="Left" Margin="173,217,0,0" VerticalAlignment="Top" Width="120" SelectedIndex="0">
-            <ComboBoxItem Content="Sozinho"/>
-            <ComboBoxItem Content="Encontro Romântico"/>
-            <ComboBoxItem Content="Festa com Amigos"/>
-            <ComboBoxItem Content="Jantar Formal"/>
+            <ComboBoxItem Content="Sozinho" FontFamily="Sans Serif Collection" FontWeight="Bold"/>
+            <ComboBoxItem Content="Romântico" FontFamily="Sans Serif Collection" FontWeight="Bold"/>
+            <ComboBoxItem Content="Amigos" FontFamily="Sans Serif Collection" FontWeight="Bold"/>
+            <ComboBoxItem Content="Formal" FontFamily="Sans Serif Collection" FontWeight="Bold"/>
+            <ComboBoxItem Content="Relaxar" FontFamily="Sans Serif Collection" FontWeight="Bold"/>
         </ComboBox>
-        <ComboBox x:Name="Select_acom" HorizontalAlignment="Left" Margin="267,274,0,0" VerticalAlignment="Top" Width="133" SelectedIndex="0">
-            <ComboBoxItem Content="Carnes Vermelhas"/>
-            <ComboBoxItem Content="Frutos do Mar"/>
-            <ComboBoxItem Content="Massas/Pizzas"/>
-            <ComboBoxItem Content="Sobremesas"/>
-            <ComboBoxItem Content="Apenas para Relaxar"/>
+        <ComboBox x:Name="Select_acom" HorizontalAlignment="Left" Margin="267,274,0,0" VerticalAlignment="Top" Width="133" SelectedIndex="0" RenderTransformOrigin="-0.151,1.121" >
+            <ComboBoxItem Content="Carnes" FontFamily="Sans Serif Collection" FontWeight="Bold"/>
+            <ComboBoxItem Content="Queijos" FontFamily="Sans Serif Collection" FontWeight="Bold"/>
+            <ComboBoxItem Content="Saladas" FontFamily="Sans Serif Collection" FontWeight="Bold"/>
+            <ComboBoxItem Content="FrutosMar" FontFamily="Sans Serif Collection" FontWeight="Bold"/>
+            <ComboBoxItem Content="Massas" FontFamily="Sans Serif Collection" FontWeight="Bold"/>
+            <ComboBoxItem Content="Sobremesas" FontFamily="Sans Serif Collection" FontWeight="Bold"/>
+            <ComboBoxItem Content="Relaxar" FontFamily="Sans Serif Collection" FontWeight="Bold"/>
         </ComboBox>
         <ComboBox x:Name="Select_preco" HorizontalAlignment="Left" Margin="233,332,0,0" VerticalAlignment="Top" Width="120" SelectedIndex="0">
-            <ComboBoxItem Content="$50"/>
-            <ComboBoxItem Content="$100"/>
-            <ComboBoxItem Content="$150"/>
+            <ComboBoxItem Content="$50" FontFamily="Sans Serif Collection" FontWeight="Bold"/>
+            <ComboBoxItem Content="$100" FontFamily="Sans Serif Collection" FontWeight="Bold"/>
+            <ComboBoxItem Content="$150" FontFamily="Sans Serif Collection" FontWeight="Bold"/>
         </ComboBox>
         <Button x:Name="bnt_result" HorizontalAlignment="Left" Margin="458,44,0,0" VerticalAlignment="Top" Height="364" Width="298" Opacity="0.7" BorderBrush="White" Click="bnt_result_Click">
             <Button.Background>

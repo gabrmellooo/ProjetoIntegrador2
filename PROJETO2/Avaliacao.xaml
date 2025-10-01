@@ -7,16 +7,6 @@
         mc:Ignorable="d"
         Title="Avaliacao" Height="450" Width="800">
     <Grid>
-        <Image HorizontalAlignment="Left" Height="451" VerticalAlignment="Top" Width="821" Source="/wine-pictures-tb17n96c91147tq9.jpg"/>
-        <TextBlock HorizontalAlignment="Left" Margin="195,51,0,0" TextWrapping="Wrap" VerticalAlignment="Top" Height="55" Width="429" FontSize="36" Foreground="White" RenderTransformOrigin="0.5,0.5" FontWeight="Bold">
-            <TextBlock.RenderTransform>
-                <TransformGroup>
-                    <ScaleTransform/>
-                    <SkewTransform/>
-                    <RotateTransform Angle="0.034"/>
-                    <TranslateTransform/>
-                </TransformGroup>
-            </TextBlock.RenderTransform><Run Language="pt-br" Text="Avalie a sua experiência"/><LineBreak/><Run Language="pt-br"/></TextBlock>
         <Button x:Name="btn_muitoposi" Content="Muito &#xD;&#xA;satisfeito&#xD;&#xA;" HorizontalAlignment="Left" Margin="81,182,0,0" VerticalAlignment="Top" Height="120" Width="140" FontSize="24" Foreground="White" Click="btn_muitoposi_Click">
             <Button.Background>
                 <LinearGradientBrush EndPoint="0.5,1" StartPoint="0.5,0">

@@ -7,8 +7,7 @@
         mc:Ignorable="d"
         Title="RESULTADO" Height="450" Width="800">
     <Grid>
-        <Image HorizontalAlignment="Center" Height="523" VerticalAlignment="Center" Width="800" Source="/Bem-vindo (4).png"/>
-        <Button HorizontalAlignment="Left" VerticalAlignment="Center" Height="424" Width="780" Click="Button_Click" BorderBrush="White" Background="White" Opacity="0" Margin="20,0,0,0"/>
-        <TextBox x:Name="txtVinho" HorizontalAlignment="Left" Margin="493,135,0,0" TextWrapping="Wrap" VerticalAlignment="Top" Width="170" Height="30" FontSize="18"/>
+        <Button HorizontalAlignment="Center" VerticalAlignment="Top" Height="146" Width="281" Click="Button_Click" BorderBrush="White" Background="Red" Margin="0,196,0,0"/>
+        <TextBox x:Name="txtVinho" HorizontalAlignment="Left" Margin="307,114,0,0" TextWrapping="Wrap" VerticalAlignment="Top" Width="170" Height="30" FontSize="22" Background="#FF848484" FontFamily="Sans Serif Collection" FontWeight="Bold" FontStyle="Italic"/>
     </Grid>
 </Window>
