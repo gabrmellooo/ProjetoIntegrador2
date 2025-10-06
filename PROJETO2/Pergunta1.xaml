@@ -7,7 +7,7 @@
         mc:Ignorable="d"
         Title="Pergunta1" Height="450" Width="800">
     <Grid>
-        <ComboBox x:Name="Select_clima" HorizontalAlignment="Left" Margin="153,101,0,0" VerticalAlignment="Top" Width="120" SelectedIndex="0" >
+        <ComboBox x:Name="Select_clima" HorizontalAlignment="Left" Margin="153,101,0,0" VerticalAlignment="Top" Width="120" SelectedIndex="0" FontWeight="Bold" >
             <ComboBoxItem Content="Calor" FontFamily="Sans Serif Collection" FontWeight="Bold"/>
             <ComboBoxItem Content="Frio" FontFamily="Sans Serif Collection" FontWeight="Bold"/>
         </ComboBox>
@@ -15,14 +15,14 @@
             <ComboBoxItem Content="Dia" FontFamily="Sans Serif Collection" FontWeight="Bold"/>
             <ComboBoxItem Content="Noite" FontFamily="Sans Serif Collection" FontWeight="Bold"/>
         </ComboBox>
-        <ComboBox x:Name="Select_oca" HorizontalAlignment="Left" Margin="173,217,0,0" VerticalAlignment="Top" Width="120" SelectedIndex="0">
+        <ComboBox x:Name="Select_oca" HorizontalAlignment="Left" Margin="173,217,0,0" VerticalAlignment="Top" Width="120" SelectedIndex="0" FontWeight="Bold">
             <ComboBoxItem Content="Sozinho" FontFamily="Sans Serif Collection" FontWeight="Bold"/>
             <ComboBoxItem Content="Romântico" FontFamily="Sans Serif Collection" FontWeight="Bold"/>
             <ComboBoxItem Content="Amigos" FontFamily="Sans Serif Collection" FontWeight="Bold"/>
             <ComboBoxItem Content="Formal" FontFamily="Sans Serif Collection" FontWeight="Bold"/>
             <ComboBoxItem Content="Relaxar" FontFamily="Sans Serif Collection" FontWeight="Bold"/>
         </ComboBox>
-        <ComboBox x:Name="Select_acom" HorizontalAlignment="Left" Margin="267,274,0,0" VerticalAlignment="Top" Width="133" SelectedIndex="0" RenderTransformOrigin="-0.151,1.121" >
+        <ComboBox x:Name="Select_acom" HorizontalAlignment="Left" Margin="267,274,0,0" VerticalAlignment="Top" Width="133" SelectedIndex="0" RenderTransformOrigin="-0.151,1.121" FontWeight="Bold" >
             <ComboBoxItem Content="Carnes" FontFamily="Sans Serif Collection" FontWeight="Bold"/>
             <ComboBoxItem Content="Queijos" FontFamily="Sans Serif Collection" FontWeight="Bold"/>
             <ComboBoxItem Content="Saladas" FontFamily="Sans Serif Collection" FontWeight="Bold"/>
@@ -31,7 +31,7 @@
             <ComboBoxItem Content="Sobremesas" FontFamily="Sans Serif Collection" FontWeight="Bold"/>
             <ComboBoxItem Content="Relaxar" FontFamily="Sans Serif Collection" FontWeight="Bold"/>
         </ComboBox>
-        <ComboBox x:Name="Select_preco" HorizontalAlignment="Left" Margin="233,332,0,0" VerticalAlignment="Top" Width="120" SelectedIndex="0">
+        <ComboBox x:Name="Select_preco" HorizontalAlignment="Left" Margin="233,332,0,0" VerticalAlignment="Top" Width="120" SelectedIndex="0" FontWeight="Bold">
             <ComboBoxItem Content="$50" FontFamily="Sans Serif Collection" FontWeight="Bold"/>
             <ComboBoxItem Content="$100" FontFamily="Sans Serif Collection" FontWeight="Bold"/>
             <ComboBoxItem Content="$150" FontFamily="Sans Serif Collection" FontWeight="Bold"/>
